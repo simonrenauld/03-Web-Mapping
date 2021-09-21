@@ -1,4 +1,4 @@
-# leaflet-Map Exampe
+# leaflet-Map Choropleth Example
 A simple Leaflet map
 
 ## Live map
