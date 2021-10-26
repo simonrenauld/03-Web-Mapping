@@ -291,5 +291,5 @@ span.legend-icon {
 }
 
 .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
-  border: 0px
+  border: 0.1px
 solid rgba(0,0,0,0.2)}
