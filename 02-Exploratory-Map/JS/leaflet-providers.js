@@ -223,9 +223,9 @@
         Stamen: {
             url: 'https://stamen-tiles-{s}.a.ssl.fastly.net/{variant}/{z}/{x}/{y}.{ext}',
             options: {
-                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, ' +
-                    '<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; ' +
-                    'Map data {attribution.OpenStreetMap}',
+                attribution: '<a href="http://stamen.com"></a>, ' +
+                    '<a href="http://creativecommons.org/licenses/by/3.0"></a> &mdash; ' +
+                    '{attribution.OpenStreetMap}',
                 subdomains: 'abcd',
                 minZoom: 0,
                 maxZoom: 20,
