@@ -270,11 +270,11 @@ span.legend-arrow {
 
 span.legend-icon {
   color: #bbb;
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 .ladder {
-  width: 180px;
+  width: 130px;
   margin-top: 0 !important;
   overflow: hidden;
 }
