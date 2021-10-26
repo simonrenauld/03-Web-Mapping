@@ -1,1 +1,1 @@
-Option: upload your Google Sheets data in separate CSV files here, as described in https://handsondataviz.org/leaflet-maps-with-google-sheets/
+https://docs.google.com/spreadsheets/d/14er1kcawa8g3uHb9KGz-IB76x8jCmrlGu0BGyRGVmZw/edit#gid=0
