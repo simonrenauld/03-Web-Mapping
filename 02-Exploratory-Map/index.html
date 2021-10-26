@@ -49,6 +49,12 @@
     <link rel="stylesheet" href="CSS/leaflet-control-credits.css" />
     <script type="text/javascript" src="JS/leaflet-control-credits.js"></script>
 
+    <!-- fullscreen-->
+    <link rel="stylesheet" href="dist/leaflet.fullscreen.css" />
+    <script type="text/javascript" src="dist/Leaflet.fullscreen.min.js"></script>
+
+
+
     <style>
         body {
             padding: 0;
@@ -72,7 +78,10 @@
     <script>
         var map = L.map('map', {
             center: [21.3069, -157.8583], // Honolulu, HI
-            zoom: 16
+            zoom: 16,
+            fullscreenControl: {
+        pseudoFullscreen: false
+        }
         });
 
         var defaultBase = L.tileLayer.provider('Stamen.TonerLite').addTo(map);
@@ -84,6 +93,7 @@
             'ESRI Ocean Basemap': L.tileLayer.provider('Esri.OceanBasemap'),
             'OSM Topo': L.tileLayer.provider('OpenTopoMap')
         };
+
 
         //ESRI ArcGIS layers from Hawaii GIS Program; dynamic layer example
         //Using a relative url to call layer instead of http
@@ -211,6 +221,7 @@
 
         // add leaflet.pm controls to the map
         map.pm.addControls(options);
+        map.addControl(new L.Control.Fullscreen());
 
         //Logo position: bottomright
       
