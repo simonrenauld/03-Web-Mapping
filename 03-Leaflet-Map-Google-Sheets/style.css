@@ -14,7 +14,7 @@ body {
 
 h3 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
 h5 {
@@ -43,6 +43,7 @@ h6 {
   box-shadow: 0 1px 5px rgba(0,0,0,0.4);
   color: #333;
   border-radius: 5px;
+  
 }
 
 .leaflet-control-geocoder {
@@ -50,7 +51,7 @@ h6 {
 }
 
 form {
-  margin-top: 2px;
+  margin-top: px;
 }
 
 .polygons-legend-scale {
@@ -76,7 +77,7 @@ form {
 }
 
 .geojson-point-marker {
-  radius: 3;
+  resize: auto;
 }
 
 .loader,
@@ -200,7 +201,7 @@ form {
 .polygon-label {
   position: absolute;
   left: -15px;
-  color: #444;
+  color: rgb(68, 68, 68);
   font-weight: bold;
   opacity: 0.9;
   pointer-events: none !important;
@@ -288,3 +289,7 @@ span.legend-icon {
 .ladder form, .ladder div {
   display: block;
 }
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  border: 0px
+solid rgba(0,0,0,0.2)}
