@@ -688,7 +688,7 @@
 
       L.DomEvent
         .on(this._container, 'click', function (e) {
-          // Child elements with 'click' listeners should call
+          // Child elements'click' listeners should call
           // stopPropagation() to prevent that event from bubbling to
           // the container & causing it to fire too greedily
           this._input.focus();

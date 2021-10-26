@@ -4,7 +4,7 @@ https://simonrenauld.github.io/03-Web-Mapping/03-Leaflet-Map-Google-Sheets/index
 
 
 
-# Leaflet Maps with Google Sheets
+# Leaflet MapsGoogle Sheets
 Customize Leaflet maps with a linked Google Sheets template or CSV files and GeoJSON data on GitHub
 
 ![Preview](https://github.com/simonrenauld/simonrenauld.github.io/blob/main/images/mapcover.PNG)
