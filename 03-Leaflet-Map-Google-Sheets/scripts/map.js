@@ -883,7 +883,7 @@ $(window).on('load', function() {
   }
 
   /**
-   * Turns on and off polygon text labels depending on current map zoom
+   * Turns on and  polygon text labels depending on current map zoom
    */
   function togglePolygonLabels() {
     for (i in allTextLabels) {
