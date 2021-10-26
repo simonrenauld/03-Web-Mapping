@@ -317,7 +317,7 @@
                     options: {
                         variant: 'World_Imagery',
                         attribution: '{attribution.Esri} &mdash; ' +
-                            'Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+                            ''
                     }
                 },
                 WorldTerrain: {
