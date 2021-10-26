@@ -14,7 +14,9 @@ body {
 
 h3 {
   margin: 0;
-  font-size: 1.1em;
+  font-size: 1.5em;
+  font-family: "Quicksand", Arial, sans-serif;
+  color: rgb(80, 80, 80);
 }
 
 h5 {
